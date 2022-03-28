@@ -18,7 +18,7 @@
     left: 6.5rem;
 }
 
-.testimonial-section h1{
+.testimonial-section p{
     max-width: 41.8rem;
     color: hsl(240, 38%, 20%);
     font-weight: 300;
@@ -33,13 +33,13 @@
     margin-top: 2rem;
 }
 
-.testimonial-section h2{
+.container-text p{
     color: hsl(240, 38%, 20%);
     font-size: 1.5rem;
     font-weight: bold;
     margin-right: 1rem;
 }
-.testimonial-section p{
+.occupation{
     font-size: 1.5rem;
     font-weight: 500;
     color: hsl(240, 18%, 77%);
@@ -98,7 +98,7 @@
         margin: 0 auto 5.2rem auto;
     }
 
-    .testimonial-section h1{
+    .testimonial-section p{
         width: 85%;
         font-size: 1.2rem;
         margin: 0 auto;
@@ -132,12 +132,13 @@
         justify-content: center;
     }
 
-    .testimonial-section h2{
+    .container-text p{
         font-size: 1rem;
         margin-right: 0;
         margin-bottom: 0.3rem;
     }
-    .testimonial-section p{
+
+    .occupation{
         font-size: 1rem;
     }
 }

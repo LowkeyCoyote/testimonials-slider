@@ -60,27 +60,27 @@ function TestimonialsSection() {
         <section className="container">
             <article className="testimonial-section">
                 <img src={bgQuote} alt="quote"/>
-                <h1>{
+                <p>{
                     contentArray[id].paragraph
                 }
-                </h1>
-                <div className="container-text"><h2>{contentArray[id].name} </h2><p>{contentArray[id].occupation}</p>
+                </p>
+                <div className="container-text"> <p>{contentArray[id].name} </p><span className="occupation">{contentArray[id].occupation}</span>
                 </div>
             </article>
 
             <aside className="testimonial-image">
                 <img src={contentArray[id].image} alt="img"/>
                 <div className="slider-arrows">
-                    <button className="button button-prev" onClick={prevId}>
+                    <div className="button button-prev" onClick={prevId}>
                         <svg xmlns="http://www.w3.org/2000/svg" width="12" height="18">
                             <path fill="none" stroke="#8585AC" strokeWidth="3" d="M11 1L3 9l8 8"/>
                         </svg>
-                    </button>
-                    <button className="button button-next" onClick={nextId}>
+                    </div>
+                    <div className="button button-next" onClick={nextId}>
                         <svg xmlns="http://www.w3.org/2000/svg" width="13" height="18">
                             <path fill="none" stroke="#8585AC" strokeWidth="3" d="M2 1l8 8-8 8"/>
                         </svg>
-                    </button>
+                    </div>
                 </div>
             </aside>
         </section>
