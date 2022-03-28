@@ -71,16 +71,16 @@ function TestimonialsSection() {
             <aside className="testimonial-image">
                 <img src={contentArray[id].image} alt="img"/>
                 <div className="slider-arrows">
-                    <div className="button button-prev" onClick={prevId}>
+                    <button className="button button-prev" onClick={prevId} aria-label="prev">
                         <svg xmlns="http://www.w3.org/2000/svg" width="12" height="18">
                             <path fill="none" stroke="#8585AC" strokeWidth="3" d="M11 1L3 9l8 8"/>
                         </svg>
-                    </div>
-                    <div className="button button-next" onClick={nextId}>
+                    </button>
+                    <button className="button button-next" onClick={nextId} aria-label="next">
                         <svg xmlns="http://www.w3.org/2000/svg" width="13" height="18">
                             <path fill="none" stroke="#8585AC" strokeWidth="3" d="M2 1l8 8-8 8"/>
                         </svg>
-                    </div>
+                    </button>
                 </div>
             </aside>
         </section>
